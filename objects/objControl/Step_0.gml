@@ -1,5 +1,7 @@
 /// @description 
 
+show_debug_message(room_width); 
+global.highScore = global.gameScore; 
 //Respawn the player
 if(global.playerHealth > 0){
 	if(!instance_exists(objPlayer)){

@@ -1,6 +1,7 @@
 /// @description 
 // Init Global Variables 
 global.gameScore = 0; 
+global.highScore = 0; //Temp 
 global.combo = 1; 
 global.flash = false; 
 global.playerHealth = 3; 
