@@ -9,17 +9,18 @@ keyBomb = keyboard_check_pressed(ord("L"));
 
 show_debug_message(playerArmor); 
 //Player Movement
+var lerpMovement = 0.8;
 if(keyUp){
-	y += -playerSpeed;
+	y = lerp(y, y - playerSpeed, lerpMovement);
 }
 if(keyDown){
-	y += playerSpeed;
+	y = lerp(y, y + playerSpeed, lerpMovement);
 }
 if(keyLeft){
-	x += -playerSpeed;
+	x = lerp(x, x - playerSpeed, lerpMovement);
 }
 if(keyRight){
-	x += playerSpeed;
+	x = lerp(x, x + playerSpeed, lerpMovement);
 }
 
 //Player Shooting 

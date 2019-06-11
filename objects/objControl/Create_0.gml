@@ -1,5 +1,6 @@
 /// @description 
-// Init Global Variables 
+// Init Global Variables
+randomize(); 
 global.gameScore = 0; 
 global.highScore = 0; //Temp 
 global.combo = 1; 
