@@ -17,8 +17,8 @@ if(objName == "objPowerUp"){
 }
 
 if(objName == "objShieldUp"){
-	if(playerArmor < 2){
-		playerArmor++; 	
+	if(global.playerArmor != 1){
+		global.playerArmor++; 	
 	}else{
 		global.gameScore += 100;	
 	}

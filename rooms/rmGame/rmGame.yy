@@ -122,7 +122,7 @@
             "visible": true,
             "vspeed": 1.5,
             "vtiled": true,
-            "x": 0,
+            "x": -20,
             "y": 0
         },
         {
@@ -157,7 +157,7 @@
             "visible": true,
             "vspeed": 1.2,
             "vtiled": true,
-            "x": 0,
+            "x": 10,
             "y": 0
         },
         {

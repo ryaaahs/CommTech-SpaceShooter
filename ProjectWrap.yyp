@@ -39,6 +39,14 @@
             }
         },
         {
+            "Key": "0c033366-98ae-47df-9b52-0dc6fd3d1123",
+            "Value": {
+                "id": "76658acc-ad14-4bfa-a5b5-e30394cba6cd",
+                "resourcePath": "sprites\\sprBomb\\sprBomb.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "110997e3-39fe-43c9-adca-4f2567f73a5c",
             "Value": {
                 "id": "9fe04bb4-4dad-42d9-8e9c-83614832de89",
@@ -60,6 +68,14 @@
                 "id": "270f4857-ae9e-40cc-9b2e-b60e1487b950",
                 "resourcePath": "objects\\objShipShooter\\objShipShooter.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "18d51d27-c3da-4fd2-971c-12f7a41c7a1d",
+            "Value": {
+                "id": "4d4cff66-b53c-4b4e-bcdd-392aade90940",
+                "resourcePath": "sprites\\sprPlayerHUDHp\\sprPlayerHUDHp.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -108,6 +124,14 @@
                 "id": "b168b02f-e774-4b17-9fcd-b4676e0702e8",
                 "resourcePath": "fonts\\fntGameFont\\fntGameFont.yy",
                 "resourceType": "GMFont"
+            }
+        },
+        {
+            "Key": "313ef26e-5849-406c-98d9-7ae8c3c9fb1d",
+            "Value": {
+                "id": "1d440b42-33f2-481a-88be-f477f346b806",
+                "resourcePath": "sprites\\sprPlayerArmor\\sprPlayerArmor.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -556,6 +580,14 @@
                 "id": "129a44cd-5815-4fda-98f6-31ccb9884ed2",
                 "resourcePath": "views\\f6d11a5e-e091-4923-9dc4-becdb197557c.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "f87abde7-5403-43b1-88d2-652156e29c0c",
+            "Value": {
+                "id": "aef65dca-30eb-4b14-9b49-e94254de8580",
+                "resourcePath": "sprites\\sprPlayerHUDArmor\\sprPlayerHUDArmor.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

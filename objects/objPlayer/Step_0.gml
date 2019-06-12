@@ -7,7 +7,13 @@ keyRight = keyboard_check(ord("D"));
 keyShoot = keyboard_check(ord("K")); 
 keyBomb = keyboard_check_pressed(ord("L")); 
 
-show_debug_message(playerArmor); 
+//Change sprite If the player as armor
+if(global.playerArmor > 0){
+	sprite_index = sprPlayerArmor;	
+}else{
+	sprite_index = sprPlayer;	
+}
+
 //Player Movement
 var lerpMovement = 0.8;
 if(keyUp){
@@ -47,8 +53,9 @@ if(keyShoot){
 	}
 }
 
-if(keyBomb){
+if(keyBomb && (global.currentBombs > 0)){
 	global.flash = true;
+	global.currentBombs--
 	with(objShipBulletParent){
 		instance_destroy(); 
 	}
