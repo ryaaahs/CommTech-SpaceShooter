@@ -39,6 +39,14 @@
             }
         },
         {
+            "Key": "082347f3-71bc-4365-b443-4f2787be01dd",
+            "Value": {
+                "id": "655e70b5-ce27-40a4-a3b1-2022b65a0511",
+                "resourcePath": "sprites\\sprBombExplosion\\sprBombExplosion.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "0c033366-98ae-47df-9b52-0dc6fd3d1123",
             "Value": {
                 "id": "76658acc-ad14-4bfa-a5b5-e30394cba6cd",
@@ -111,6 +119,14 @@
             }
         },
         {
+            "Key": "225999d6-0736-449f-bdd4-30f711733578",
+            "Value": {
+                "id": "74da0afb-7d9a-4717-a073-f7370cbf7fcd",
+                "resourcePath": "objects\\objTrailFollow\\objTrailFollow.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "2cbc7f9f-e4ff-46cc-b3e4-c1fa5a98fe95",
             "Value": {
                 "id": "70c9cca0-9d74-45ce-99fb-0d9f7b8cfbba",
@@ -127,10 +143,26 @@
             }
         },
         {
+            "Key": "2fe43072-bfc4-4e7a-a951-8e975e929308",
+            "Value": {
+                "id": "b25496c8-f42c-4fb0-9518-ba0b3ae15c0a",
+                "resourcePath": "sprites\\sprTrailStart\\sprTrailStart.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "313ef26e-5849-406c-98d9-7ae8c3c9fb1d",
             "Value": {
                 "id": "1d440b42-33f2-481a-88be-f477f346b806",
                 "resourcePath": "sprites\\sprPlayerArmor\\sprPlayerArmor.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "46da195f-4db4-4939-967a-3c6cedd47411",
+            "Value": {
+                "id": "5dc3169d-aad9-4959-9ae3-20e75f5c3d53",
+                "resourcePath": "sprites\\sprTrailFollow\\sprTrailFollow.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -303,6 +335,22 @@
             }
         },
         {
+            "Key": "787676d8-31a1-4e14-8a37-67d063c6a36b",
+            "Value": {
+                "id": "a84f64fa-95b2-4e4b-b129-3b715e902ca8",
+                "resourcePath": "sounds\\sndExplosion\\sndExplosion.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "7bd4dc94-ff39-4fed-84ef-35cb2502d6e4",
+            "Value": {
+                "id": "9f8b6eff-cc5d-44c1-bb4c-ba1cb78e97fd",
+                "resourcePath": "objects\\objExplosions\\objExplosions.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "7f4a7f29-a00b-4c74-abb9-38f3c08195f3",
             "Value": {
                 "id": "4b25078c-01a5-4e9f-9a4e-1cd537de1098",
@@ -324,6 +372,14 @@
                 "id": "f3cc6615-96b0-4c34-b2d2-9a1f0ebdca86",
                 "resourcePath": "views\\8e05c01e-c7b6-4d1c-b441-f639fb59cb0a.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "8e99c0fc-8622-4605-9f35-ac267c4fb593",
+            "Value": {
+                "id": "fd232d34-c1ec-4231-9953-2debcfb8525c",
+                "resourcePath": "objects\\objTrailStart\\objTrailStart.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -455,6 +511,14 @@
             }
         },
         {
+            "Key": "cbf3dcb3-6fd2-4a2c-8077-1065580d408f",
+            "Value": {
+                "id": "eac182a6-4505-4f2c-9c0c-7cbec623b1cc",
+                "resourcePath": "sounds\\sndHit\\sndHit.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "cc932612-37f8-47d4-ad79-ea8780887a94",
             "Value": {
                 "id": "207c9360-8247-4b73-907e-fd4406473aa4",
@@ -572,6 +636,14 @@
                 "id": "01a0f5e1-1031-4f6f-b29d-5f6694124189",
                 "resourcePath": "options\\mac\\options_mac.yy",
                 "resourceType": "GMMacOptions"
+            }
+        },
+        {
+            "Key": "f68064e2-e9a3-437f-a90e-c784250afe8d",
+            "Value": {
+                "id": "715cbc25-2d6d-4ed3-b42e-424306189d41",
+                "resourcePath": "sounds\\sndShoot\\sndShoot.yy",
+                "resourceType": "GMSound"
             }
         },
         {

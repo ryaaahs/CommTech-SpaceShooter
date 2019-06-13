@@ -1,6 +1,12 @@
 /// @description 
 if(shipHealth <= 0){
-	instance_destroy(); 	
+	audio_play_sound(sndExplosion, 1, false); 
+	instance_create_layer(x + irandom_range(-5, 5), y + irandom_range(-5, 5), "Instances", objExplosions); 	
+	repeat(choose(3, 5)){
+		audio_play_sound(sndExplosion, 1, false);
+		instance_create_layer(x + irandom_range(-35, 35), y + irandom_range(-35, 35), "Instances", objExplosions); 	
+	}
+	instance_destroy(); 
 }
 
 if(horizSpeed != 0){

@@ -7,6 +7,13 @@ flash = 0;
 shotLevel = 1; 
 death = false; 
 
+wait = 0;
+waitTimer = room_speed / 8; 
+bombTicks = 0; 
+
 //Game Start;
 x = room_width/2;
 y = room_height - 48; 
+
+//Create the trail
+instance_create_layer(x, y + sprite_yoffset, "Instances", objTrailStart); 
