@@ -19,3 +19,4 @@ if(horizTimer >= horizAlarm){
 }
 
 x += horizSpeed; 
+

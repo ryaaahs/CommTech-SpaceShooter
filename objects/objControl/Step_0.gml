@@ -10,8 +10,12 @@ if(global.playerHealth > 0){
 		var _spawnY = room_height - 48; // 64 is player Sprite size * 2
 		//show_message("X: " + string(_spawnX));
 		//show_message("Y: " + string(_spawnY));
-		instance_create_layer(_spawnX, _spawnY, "Instances", objPlayer);
+		
+		global.invicibility = true;
+		instance_create_layer(_spawnX, _spawnY, "GameObjects", objPlayer)
+		
 	}
 }else{
 	//gameover	
+	gameOver = true; 
 }

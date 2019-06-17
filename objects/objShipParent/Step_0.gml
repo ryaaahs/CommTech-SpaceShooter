@@ -23,6 +23,9 @@ y += shipSpeed;
 
 //General Screen Wrapping 
 if(y > room_height + sprite_yoffset){
-	instance_destroy(); 	
+	instance_destroy(); 
 }
+
+
+
 scrWrapping(); 

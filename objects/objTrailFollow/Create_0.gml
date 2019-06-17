@@ -1,4 +1,5 @@
 /// @description 
+follow = ""; 
 idVal = global.amount;
 global.amount += 1
 movement = 0; 

@@ -39,32 +39,6 @@ if(instance_exists(objCamera)){
 			draw_text(xHSInt + (textMovement * 2), 15, string(global.gameScore));
 		}
 		
-		var xHS = 40;
-		var xHSInt = 80; 
-		var yHS = 25; 
-		var textMovement = 5; 
-		//High Score UI
-		if(global.highScore = 0){
-			draw_set_colour(c_red); 
-			draw_text(xHS, yHS, "HIGHSCORE" );
-			draw_set_colour(c_white);
-			draw_text(xHSInt + textMovement, yHS, string(global.highScore));
-		}else if(global.highScore < 100){
-			draw_set_colour(c_red); 
-			draw_text(xHS, yHS, "HIGHSCORE" );
-			draw_set_colour(c_white);
-			draw_text(xHSInt + (textMovement * 2), yHS, string(global.highScore));
-		}else if(global.highScore < 1000){
-			draw_set_colour(c_red); 
-			draw_text(xHS, yHS, "HIGHSCORE" );
-			draw_set_colour(c_white);
-			draw_text(xHSInt + (textMovement * 2), yHS, string(global.highScore));	
-		}else if(global.highScore < 10000){
-			draw_set_colour(c_red); 
-			draw_text(xHS, yHS, "HIGHSCORE" );
-			draw_set_colour(c_white);
-			draw_text(xHSInt + (textMovement * 2), yHS, string(global.highScore));
-		}
 		draw_set_valign(fa_middle);
 		draw_set_halign(fa_left);
 		if(global.combo == 1){
@@ -133,40 +107,14 @@ if(instance_exists(objCamera)){
 			draw_set_colour(c_red); 
 			draw_text(xGS, yGS, "SCORE" );
 			draw_set_colour(c_white);
-			draw_text(xHSInt + (textMovement * 2), 30, string(global.gameScore));	
+			draw_text(xHSInt + (textMovement * 2) + 10, 30, string(global.gameScore));	
 		}else if(global.gameScore < 10000){
 			draw_set_colour(c_red); 
 			draw_text(xGS, yGS, "SCORE" );
 			draw_set_colour(c_white);
-			draw_text(xHSInt + (textMovement * 2), 30, string(global.gameScore));
+			draw_text(xHSInt + (textMovement * 2)+ 10, 30, string(global.gameScore));
 		}
 		
-		var xHS = 95;
-		var xHSInt = 200; 
-		var yHS = 60; 
-		var textMovement = 6; 
-		//High Score UI
-		if(global.highScore = 0){
-			draw_set_colour(c_red); 
-			draw_text(xHS, yHS, "HIGHSCORE" );
-			draw_set_colour(c_white);
-			draw_text(xHSInt, yHS, string(global.highScore));
-		}else if(global.highScore < 100){
-			draw_set_colour(c_red); 
-			draw_text(xHS, yHS, "HIGHSCORE" );
-			draw_set_colour(c_white);
-			draw_text(xHSInt + (textMovement * 2), yHS, string(global.highScore));
-		}else if(global.highScore < 1000){
-			draw_set_colour(c_red); 
-			draw_text(xHS, yHS, "HIGHSCORE" );
-			draw_set_colour(c_white);
-			draw_text(xHSInt + (textMovement * 2), yHS, string(global.highScore));	
-		}else if(global.highScore < 10000){
-			draw_set_colour(c_red); 
-			draw_text(xHS, yHS, "HIGHSCORE" );
-			draw_set_colour(c_white);
-			draw_text(xHSInt + (textMovement * 2), yHS, string(global.highScore));
-		}
 		draw_set_valign(fa_middle);
 		draw_set_halign(fa_left);
 		if(global.combo == 1){
@@ -217,5 +165,23 @@ if(global.flash){
 		draw_rectangle(0, 0, room_width * objCamera.size , room_height * objCamera.size, false); 
 	}
 	global.flash = false; 
+}
+
+if(gameOver){
+	draw_set_valign(fa_middle);
+	draw_set_halign(fa_center);
+	draw_set_color(c_red);
+	draw_text(objCamera.windowWidth / 2, objCamera.windowHeight / 2, "GAME OVER");
+	draw_text(objCamera.windowWidth / 2, objCamera.windowHeight / 2 + 48, "PRESS R TO RESTART"); 
+	draw_set_color(c_white);
+}
+
+if(global.gameWin){
+	draw_set_valign(fa_middle);
+	draw_set_halign(fa_center);
+	draw_set_color(c_red);
+	draw_text(objCamera.windowWidth / 2, objCamera.windowHeight / 2, "YOU WON");
+	draw_text(objCamera.windowWidth / 2, objCamera.windowHeight / 2 + 48, "PRESS R TO RESTART"); 
+	draw_set_color(c_white);
 }
 

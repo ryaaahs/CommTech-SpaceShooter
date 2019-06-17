@@ -127,6 +127,14 @@
             }
         },
         {
+            "Key": "29a6bc19-d180-4a25-b872-f74d1672cdd9",
+            "Value": {
+                "id": "2f67a65a-6ae1-45a2-93b1-6502bc3e750f",
+                "resourcePath": "sprites\\sprMob\\sprMob.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "2cbc7f9f-e4ff-46cc-b3e4-c1fa5a98fe95",
             "Value": {
                 "id": "70c9cca0-9d74-45ce-99fb-0d9f7b8cfbba",
@@ -155,6 +163,22 @@
             "Value": {
                 "id": "1d440b42-33f2-481a-88be-f477f346b806",
                 "resourcePath": "sprites\\sprPlayerArmor\\sprPlayerArmor.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "3bc8a636-036b-4818-b541-1d60051491a8",
+            "Value": {
+                "id": "f625b09a-925d-4c26-93c0-0534a7a8fd38",
+                "resourcePath": "sounds\\sndAlien\\sndAlien.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "42830fe4-f0d1-4b62-bec8-c64d8af1f964",
+            "Value": {
+                "id": "80584171-61db-4982-8b98-56ab2afc2d8e",
+                "resourcePath": "sprites\\sprMobShoot\\sprMobShoot.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -212,6 +236,14 @@
                 "id": "02d4eed4-aff2-4929-b5b9-1116e3855931",
                 "resourcePath": "objects\\objShipParasiteShooter\\objShipParasiteShooter.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "52ffa262-72e3-4374-8588-824baa7504fd",
+            "Value": {
+                "id": "4ac7747e-8793-48bf-be48-c464a223a9cc",
+                "resourcePath": "sounds\\mscGame\\mscGame.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -399,6 +431,14 @@
             }
         },
         {
+            "Key": "97eced3d-cd6d-4717-ab9d-e3ec45ac2321",
+            "Value": {
+                "id": "565cd4cb-5c9c-4cda-a106-286e07f6d7af",
+                "resourcePath": "objects\\objBigBadBoss\\objBigBadBoss.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "985f22e6-f545-44a1-8a8e-1083a8d06ce3",
             "Value": {
                 "id": "2e943733-b601-417c-9069-e14248a79199",
@@ -420,6 +460,22 @@
                 "id": "0e58f347-2a16-4cc9-b485-939d569d7168",
                 "resourcePath": "objects\\objShieldUp\\objShieldUp.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "9ef05c58-2b14-4aa6-9da1-c617d89dc745",
+            "Value": {
+                "id": "7736caf5-8e15-493c-81e2-1c47aab63ce4",
+                "resourcePath": "sounds\\sndPowerUp\\sndPowerUp.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "9f2f6340-4e6f-470f-ab4b-df4352fc0d5a",
+            "Value": {
+                "id": "44e5360f-9fcc-46f4-b64e-9253b8da1f3c",
+                "resourcePath": "sprites\\sprPlayerNoHit\\sprPlayerNoHit.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -543,6 +599,14 @@
             }
         },
         {
+            "Key": "cedd8658-d924-4b86-8719-eb242d760e34",
+            "Value": {
+                "id": "093251fb-a43c-4181-9743-65fe354bc915",
+                "resourcePath": "objects\\objMob\\objMob.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "d709bd9c-270b-40a2-9d3b-b086e2ffa9af",
             "Value": {
                 "id": "dab4b71e-99c5-4ecc-b2fa-4e02b6be3745",
@@ -580,6 +644,14 @@
                 "id": "0747193c-9792-4d51-b540-768300b42b0d",
                 "resourcePath": "views\\e531f5a0-cd8f-4581-8420-1fde1ccfeb1d.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "e5f4f54a-0741-470e-983e-838cd5523128",
+            "Value": {
+                "id": "f4267740-f228-4cfa-8e5e-86628d262479",
+                "resourcePath": "sprites\\sprPlayerNoHitArmor\\sprPlayerNoHitArmor.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -636,6 +708,14 @@
                 "id": "01a0f5e1-1031-4f6f-b29d-5f6694124189",
                 "resourcePath": "options\\mac\\options_mac.yy",
                 "resourceType": "GMMacOptions"
+            }
+        },
+        {
+            "Key": "f55f6d68-9997-4037-b625-7ee324053e3c",
+            "Value": {
+                "id": "d37ada31-2ee7-4c92-8ccf-7e8dd77932ea",
+                "resourcePath": "sprites\\sprBigBadGuy\\sprBigBadGuy.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

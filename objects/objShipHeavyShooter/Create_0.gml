@@ -1,7 +1,7 @@
 /// @description 
 event_inherited();
 shootTimer = 0; 
-shootAlarm = room_speed * 2
-shipSpeed = choose(2, 3) 
-shipHealth = 2; 
+shootAlarm = room_speed; 
+shipSpeed = 1
+shipHealth = 3; 
 shipScore = 30; 

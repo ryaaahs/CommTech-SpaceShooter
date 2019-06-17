@@ -7,13 +7,34 @@ keyRight = keyboard_check(ord("D"));
 keyShoot = keyboard_check(ord("K")); 
 keyBomb = keyboard_check_pressed(ord("L")); 
 
+if(global.invicibility){
+	
+	if(global.playerArmor > 0){
+		sprite_index = sprPlayerNoHitArmor;	
+	}else if(!global.invicibility){
+		sprite_index = sprPlayerNoHit;	
+	}
+	
+	if(invicAlarm > room_speed * 2){
+		global.invicibility = false;
+		if(global.playerArmor > 0){
+			sprite_index = sprPlayerArmor;	
+		}else{
+			sprite_index = sprPlayer;	
+		}
+		image_speed = 0;
+	}else{
+		invicAlarm++; 
+	}
+}	
+
 
 //Player Death 
 if(death){
 	if(wait < waitTimer){
 		wait++	
 	}else{
-		audio_play_sound(sndExplosion, 1, false); 
+		audio_play_sound(sndExplosion, 75, false); 
 		instance_create_layer(x + irandom_range(-25, 25), y + irandom_range(-25, 25), "Explosions", objExplosions);	
 		bombTicks++; 
 		wait = 0; 
@@ -23,11 +44,10 @@ if(death){
 	}
 	
 }else{
-	
 	//Change sprite If the player as armor
-	if(global.playerArmor > 0){
+	if(global.playerArmor > 0 && !global.invicibility){
 		sprite_index = sprPlayerArmor;	
-	}else{
+	}else if(!global.invicibility){
 		sprite_index = sprPlayer;	
 	}
 
@@ -53,7 +73,7 @@ if(death){
 		}*/
 		//Different levels of Shooting 
 		if(shootTimer >= shootAlarm){
-			audio_play_sound(sndShoot, 1, false); 
+			audio_play_sound(sndShoot, 50, false); 
 			switch(shotLevel){
 			case 1:
 			scrShootLevelOne();
@@ -74,6 +94,7 @@ if(death){
 	if(keyBomb && (global.currentBombs > 0)){
 		global.flash = true;
 		global.currentBombs--
+		audio_play_sound(sndExplosion, 1, false)
 		with(objShipBulletParent){
 			instance_destroy(); 
 		}

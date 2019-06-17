@@ -11,6 +11,13 @@ wait = 0;
 waitTimer = room_speed / 8; 
 bombTicks = 0; 
 
+if(global.invicibility){
+	sprite_index = sprPlayerNoHit;
+	image_speed = 0.5;
+}
+
+invicAlarm = 0; 
+
 //Game Start;
 x = room_width/2;
 y = room_height - 48; 
